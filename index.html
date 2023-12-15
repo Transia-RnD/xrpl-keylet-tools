@@ -498,6 +498,12 @@ input[type="text"]
         
 
         <div>
+        <button onclick="hexValidate('fs', 64) &&
+            out('fs', ['F', ''+document.getElementById('fs').value])">fs</button>&nbsp;
+        <input type="text" id="fs" placeholder="uint256">
+        </div>
+
+        <div>
         <button onclick="hexValidate('emittedTxn', 64) &&
             out('emittedTxn', ['E', ''+document.getElementById('emittedTxn').value])">emittedTxn</button>&nbsp;
         <input type="text" id="emittedTxn" placeholder="uint256">
